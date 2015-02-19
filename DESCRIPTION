@@ -15,7 +15,7 @@ Description: The EMDomics algorithm is used to perform a supervised two-class
     transform one distribution into the other, thus providing a metric of the
     overall difference in shape between two distributions. Permutation of sample
     labels is used to generate q-values for the observed EMD scores.
-Version: 0.99.0
+Version: 0.99.1
 Authors@R: c(
     person("Daniel", "Schmolze",
     email="emd@schmolze.com", role=c("aut", "cre")),
@@ -24,16 +24,16 @@ Authors@R: c(
     person("Sheida", "Nabavi",
     email="sheida_nabavi@hms.harvard.edu", role="aut"))
 Maintainer: Daniel Schmolze <emd@schmolze.com>
-Depends: R (>= 2.14.0)
+Depends: R (>= 3.1.0)
 Imports: emdist, BiocParallel, matrixStats, ggplot2
 Suggests: knitr
 License: MIT + file LICENSE
 LazyData: true
 VignetteBuilder: knitr
-Packaged: 2014-11-14 21:41:39 UTC; Daniel
+Packaged: 2015-02-19 16:30:14 UTC; daniel
 Author: Daniel Schmolze [aut, cre],
   Andrew Beck [aut],
   Sheida Nabavi [aut]
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-11-15 08:16:29
+Date/Publication: 2015-02-19 22:34:15

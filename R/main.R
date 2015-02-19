@@ -217,8 +217,10 @@ calculate_emd <- function(data, samplesA, samplesB, binSize=0.2,
   emd.qval <- as.matrix(emd.qval)
   colnames(emd.qval) <- "q-value"
 
+  # leave q-values of 0 as-is
+
   # adjust q-values of 0 to 1/(nperm+1)
-  emd.qval[emd.qval == 0] <- 1/(nperm+1)
+  #emd.qval[emd.qval == 0] <- 1/(nperm+1)
 
   if (verbose)
     message("done.")
